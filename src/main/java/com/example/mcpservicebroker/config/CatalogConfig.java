@@ -9,12 +9,24 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Spring configuration for the Open Service Broker catalog.
+ * Defines the MCP server service and plan, including schemas for instance creation.
+ * Used by the Service Broker API to advertise available services and plans.
+ */
 @Configuration
 public class CatalogConfig {
 
+    /**
+     * Unique service definition and plan IDs for MCP registration.
+     */
     private static final String MCP_SERVICE_ID = "mcp-service-a7s9d8f";
     private static final String MCP_PLAN_ID = "mcp-register-plan-j3k4l5";
 
+    /**
+     * Defines the service broker catalog bean.
+     * @return Catalog containing MCP server service definition.
+     */
     @Bean
     public Catalog catalog() {
         Plan plan = Plan.builder()
@@ -40,6 +52,10 @@ public class CatalogConfig {
                 .build();
     }
 
+    /**
+     * Metadata for the MCP server service.
+     * @return Map with display name, description, and provider.
+     */
     private Map<String, Object> createServiceMetadata() {
         Map<String, Object> metadata = new HashMap<>();
         metadata.put("displayName", "MCP Server Registration");
@@ -48,6 +64,10 @@ public class CatalogConfig {
         return metadata;
     }
 
+    /**
+     * Defines the instance and binding schemas for the plan.
+     * @return Schemas for service instance creation and binding.
+     */
     private Schemas createSchemas() {
         Map<String, Object> createParams = new HashMap<>();
         createParams.put("$schema", "http://json-schema.org/draft-04/schema#");
