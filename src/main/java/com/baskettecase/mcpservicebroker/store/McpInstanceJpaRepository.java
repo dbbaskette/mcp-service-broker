@@ -1,4 +1,4 @@
-package com.example.mcpservicebroker.store;
+package com.baskettecase.mcpservicebroker.store;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.data.jpa.repository.JpaRepository;

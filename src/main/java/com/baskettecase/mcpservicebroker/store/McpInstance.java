@@ -1,4 +1,4 @@
-package com.example.mcpservicebroker.store;
+package com.baskettecase.mcpservicebroker.store;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

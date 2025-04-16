@@ -1,8 +1,8 @@
-package com.example.mcpservicebroker.api;
+package com.baskettecase.mcpservicebroker.api;
 
-import com.example.mcpservicebroker.store.McpInstance;
-import com.example.mcpservicebroker.store.McpInstanceRepository;
-import com.example.mcpservicebroker.store.McpInstanceJpaRepository;
+import com.baskettecase.mcpservicebroker.store.McpInstance;
+import com.baskettecase.mcpservicebroker.store.McpInstanceRepository;
+import com.baskettecase.mcpservicebroker.store.McpInstanceJpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;

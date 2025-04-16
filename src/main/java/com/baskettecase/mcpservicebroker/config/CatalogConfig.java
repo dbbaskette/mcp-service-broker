@@ -1,9 +1,8 @@
-package com.example.mcpservicebroker.config;
+package com.baskettecase.mcpservicebroker.config;
 
-import org.springframework.cloud.servicebroker.model.catalog.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+import org.springframework.cloud.servicebroker.model.catalog.*;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
