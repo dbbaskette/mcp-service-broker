@@ -1,6 +1,5 @@
 package com.baskettecase.mcpservicebroker.store;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -16,7 +15,6 @@ import jakarta.persistence.Column;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @ToString
 public class McpInstance {
     @Id
@@ -25,4 +23,11 @@ public class McpInstance {
     public String serviceDefinitionId;
     public String planId;
     public String mcpServerUrl;
+
+    public McpInstance(String instanceId, String serviceDefinitionId, String planId, String mcpServerUrl) {
+        this.instanceId = instanceId;
+        this.serviceDefinitionId = serviceDefinitionId;
+        this.planId = planId;
+        this.mcpServerUrl = mcpServerUrl;
+    }
 }
