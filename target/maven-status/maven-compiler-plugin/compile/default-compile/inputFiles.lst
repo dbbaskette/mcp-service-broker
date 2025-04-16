@@ -1,6 +1,8 @@
-/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/example/mcpservicebroker/McpServiceBrokerApplication.java
-/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/example/mcpservicebroker/store/McpInstance.java
-/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/example/mcpservicebroker/store/McpInstanceRepository.java
-/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/example/mcpservicebroker/service/McpServiceInstanceService.java
-/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/example/mcpservicebroker/config/CatalogConfig.java
-/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/example/mcpservicebroker/service/McpServiceBindingService.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/service/McpServiceInstanceService.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/McpServiceBrokerApplication.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/store/McpInstance.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/store/McpInstanceRepository.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/store/McpInstanceJpaRepository.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/api/McpServerController.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/service/McpServiceBindingService.java
+/Users/dbbaskette/Projects/mcp-service-broker/src/main/java/com/baskettecase/mcpservicebroker/config/CatalogConfig.java

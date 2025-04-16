@@ -24,7 +24,7 @@ public class McpServerController {
     public McpServerController(
             @Autowired(required = false) McpInstanceRepository inMemoryRepo,
             @Autowired(required = false) McpInstanceJpaRepository jpaRepo,
-            @org.springframework.core.env.Environment orgEnv) {
+            org.springframework.core.env.Environment orgEnv) {
         this.inMemoryRepo = inMemoryRepo;
         this.jpaRepo = jpaRepo;
         String[] profiles = orgEnv.getActiveProfiles();

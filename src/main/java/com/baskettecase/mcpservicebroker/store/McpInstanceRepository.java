@@ -18,7 +18,9 @@ public class McpInstanceRepository {
     }
 
     public Mono<McpInstance> save(McpInstance instance) {
-        instances.put(instance.getInstanceId(), instance);
+        // Defensive: Use Lombok's getter or direct field if needed
+        String id = instance.instanceId;
+        instances.put(id, instance);
         return Mono.just(instance);
     }
 

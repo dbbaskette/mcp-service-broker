@@ -21,8 +21,8 @@ import jakarta.persistence.Column;
 public class McpInstance {
     @Id
     @Column(nullable = false, unique = true)
-    private String instanceId;
-    private String serviceDefinitionId;
-    private String planId;
-    private String mcpServerUrl;
+    public String instanceId;
+    public String serviceDefinitionId;
+    public String planId;
+    public String mcpServerUrl;
 }
